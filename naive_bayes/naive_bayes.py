@@ -1,5 +1,5 @@
 import pandas as pd
-dataset = pd.read_csv("iphone_purchase_records.csv")
+dataset = pd.read_csv("purchase_records.csv")
 X = dataset.iloc[:,:-1].values
 y = dataset.iloc[:, 3].values
 
